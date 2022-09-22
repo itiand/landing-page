@@ -1,0 +1,201 @@
+/***SET UP****/
+body {
+    font-family: 'Helvetica Light', 'Helvetica', Arial, sans-serif;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 5px;
+    -webkit-box-shadow: -4px 5px 16px 5px rgba(0,0,0,0.18); 
+    box-shadow: -4px 5px 16px 5px rgba(0,0,0,0.18);
+}
+.container {
+    max-width: 1280px;
+    margin:auto;
+    padding: 24px;
+}
+
+.container-sm {
+    max-width: 1080px;
+    margin: auto;
+}
+
+#hero-img {
+    max-width:100%;
+}
+
+/***STYLING - colors anf fonts**/
+nav,
+#about,
+footer{
+    background-color: #1f2937;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9f1f8;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+nav a,
+#about-desc,
+footer {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #b3b3b3;
+}
+
+
+.btn,
+.btn-desc {
+    padding:6px 18px;
+    border-radius: 5px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    -webkit-box-shadow: -4px 5px 16px 5px rgba(0,0,0,0.18); 
+    box-shadow: -4px 5px 16px 5px rgba(0,0,0,0.18);
+}
+
+.btn-secondary{
+    border: white solid 0.5px;
+}
+
+.btn:hover{
+    cursor:pointer;
+    background-color: #6ca4ff; 
+}
+
+.bg-blue {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 24px 48px
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+    
+}
+
+
+/* NAV and HERO*/
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .container #links {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+#about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #1f2937;
+    padding-top: 0;
+    padding-bottom: 48px;
+}
+
+#about .container .img,
+#about .container #about-text {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+#about-text h1,
+#about-text p {
+    margin-bottom: 1rem;
+}
+
+
+/**INFO SECTION**/
+#info {
+    color: #1f2937;
+}
+#info h1 {
+    margin-top: 24px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.four-sections {
+    display: flex;
+    padding: 24px; 
+    gap: 1.5rem; 
+}
+
+.card {
+ width: 270px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+/** QUOTE SECTION **/
+
+#quote-section {
+    background-color: #e5e7eb;
+    color: #46566d;
+    padding: 100px;
+}
+
+#quote-section .ital {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+
+/** CALL TO ACTION **/
+
+#sign-up {
+    padding: 50px 0;
+}
+#blue-section {
+    -webkit-box-shadow: -4px 5px 16px 5px rgba(0,0,0,0.18); 
+    box-shadow: -4px 5px 16px 5px rgba(0,0,0,0.18);
+    border-radius: 5px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/** FOOTER **/
+footer {
+    color: #c4c4c4;
+    padding: 24px;
+}
